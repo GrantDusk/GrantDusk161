@@ -1,0 +1,306 @@
+Head_Big	{
+	position: center;
+	font-family: 'Acme', sans-serif;
+	font-size: 40;
+	font-style: bold;
+	color: white;
+	z-index: 0;	
+}
+
+/*page headings*/
+h1.scratchhead	{
+	color: #FF9900;
+	padding: 20px 20px 20px 20px;
+	text-shadow: 2px 2px  black;
+}
+h1.programhead	{
+	color:#FFC500;
+	padding: 20px 20px 20px 20px;
+	text-shadow: 2px 2px  black;
+}
+h1.head1	{
+	color:#FFC500;
+	padding: 20px 20px 20px 20px;
+	text-shadow: 2px 2px  black;
+	margin: 40px 40px 40px 40px;
+	size: 10px;
+}
+h1.questionhead	{
+	color: #1387FF;
+	padding: 20px 20px 20px 20px;
+	text-shadow: 2px 2px  black;
+}
+body {
+  padding-top: 3.5rem;
+  background-color: grey;
+}
+p.link	{
+	padding-top: 70px;
+	font-size: 40px;
+}
+/*page headings*/
+p.scratchbold	{
+	padding-top: 170px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: white;
+	text-align:center;
+	font-size: 25px;
+	margin-bottom: 300px;
+	text-shadow: 2px 2px  black;
+}
+p.programbold	{
+	padding-top: 85px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: white;
+	text-align:center;
+	font-size: 25px;
+	margin-bottom: 150px;
+	text-shadow: 2px 2px  black;
+}
+p.questionsbold	{
+	padding-top: 85px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: white;
+	text-align:center;
+	font-size: 25px;
+	margin-bottom: 125px;
+	text-shadow: 2px 2px  black;
+}
+
+div.jumbotron	{
+	background-image: url("https://www.acurax.com/wp-content/themes/acuraxsite/images/inner_page_bnr.jpg?x21789");
+}
+/* Containers for descriptions */ 
+
+.boxscratch	{
+	margin-top: 10px;
+	border: 4px solid black;
+	border-color: #FF9900;
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+.boxprograms	{
+	margin-top: 10px;
+	border: 4px solid black;
+	border-color: #FFC500;
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+.questionbox	{
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-bottom:50px;
+	border: 4px solid black;
+	border-color: black;
+	color: black;
+	background-color: white;
+	text-align: left;
+	padding: 20px 20px 20px;
+	box-shadow: 8px 8px 5px #282828;
+}
+.boxquestions	{
+	margin-top: 10px;
+	border: 4px solid black;
+	border-color: #1387FF;
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+footer	{
+	position: relative;
+		left: 0px;
+		bottom: 0px;
+	padding-left: 20px;
+	
+}
+/* Buttons */
+
+.btn {
+  border: 4px solid black;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.scratch {
+  
+  border-color: #FF9900;
+  color: black;
+  background-color: #ffd394;
+  margin-top: 30px;
+  margin-bottom:50px
+}
+.scratch:hover	{
+  background-color: #FF9900;
+  color: white;
+  border: 4px solid white;
+}	
+
+.programs {
+  border-color: #FFC500;
+  color: black;
+  background-color: #FFFFad;
+  margin-top: 30px;
+}
+.programs:hover	{
+  background-color:  #FFC500;
+  color: white;
+  border: 4px solid white;
+}	
+.questions {
+  border-color: #1387FF;
+  color: black;
+  background-color: #add8e6;
+   margin-top: 30px;
+}
+.questions:hover	{
+  background-color: #1387FF;
+  color: white;
+  border: 4px solid white;
+}	
+.java	{
+	background-color: orange;
+	color: black;
+	margin-top: 70px;
+}
+
+.video	{
+	background-color: blue;
+	color: white;
+	margin-top: 70px;
+	padding: 15px 24px;
+	border-radius:4px;
+	margin-left: 200px;
+}
+.doc	{
+	background-color:aqua;
+	color: black;
+	margin-top: 75px;
+	padding: 15px 24px;
+	border-radius:4px;
+	margin-left: 200px;
+}
+
+
+
+
+/*Self Evaluation Color Below!*/
+
+a.eval {
+	color:white;
+	text-shadow: none;
+}
+
+a.eval:hover	{
+	text-decoration: underline;
+}
+
+
+/*"Easy Navigation"*/
+.arrow	{
+	position: absolute;
+	right: 90px;
+	top: 70px;
+}
+
+.arrowbox	{
+	position: absolute;
+	right: 60px;
+	top: 100px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: white;
+}
+
+
+/* All following is for Nav Drop Down*/
+.navdrop {
+	font-size: 20px;
+ 	transition: 0.3s;
+    padding: 8px 8px 8px 20px;
+}
+
+.programsnav	{
+	color:#FFC500;
+}
+
+.scratchnav	{
+	color: #FF9900;
+}
+
+.questionsnav	{
+	color: #1387FF;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: relative;
+  top: 0px;
+  right: 0px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 42px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  position: fixed;
+  right: 0px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #343a40;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: none;
+  right: 0px;
+}
+
+.openbtn:hover {
+  background-color:grey;
+}
+.evaluation	{
+	text-align: center;
+	font-size: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: lime;
+	text-shadow: 2px 2px black;
+	margin-top:100px;
+}
